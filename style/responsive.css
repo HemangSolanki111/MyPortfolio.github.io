@@ -1,0 +1,96 @@
+@media (max-width: 991px) {
+    
+    /* custome css */
+    section{
+        padding: 30px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    
+    /* navbar */
+    .header-scrolled {
+        height: auto;
+    }
+
+    .header_wrapper .menu-navbar-nav {
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        margin-top: 15px;
+    }
+
+
+    /* banner wrapper */
+    .banner_wrapper {
+        padding: 50px 0;
+    }    
+
+    /* About */
+    /* .about_wrapper ul.nav-pills {
+        width: 60%;
+        margin: auto;
+    } */
+
+
+    /* Portfolio */
+    .protfolio_wrapper .card{
+        min-height: 400px !important;
+    }
+}
+
+
+@media (max-width: 768px) {
+    
+    /* custome css */
+    h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    /* About */
+    .about_wrapper ul.nav-pills {
+        width: 100%;
+        margin: auto;
+        border: 0;
+    
+    }
+    .about_wrapper ul li .nav-link {
+        font-size: 15px;
+    }
+    
+
+    /* services */
+    
+
+    /* Portfolio */
+    .protfolio_wrapper .card{
+        min-height: 400px !important;
+    }
+
+    /* footer */
+    .footer_wrapper h5{
+        font-size: 10px;
+    }
+}
+
