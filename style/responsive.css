@@ -88,6 +88,11 @@
         min-height: 400px !important;
     }
 
+    /* contact */
+    .contact_wrapper form {
+        overflow-x: hidden !important;
+    }
+
     /* footer */
     .footer_wrapper h5{
         font-size: 10px;
