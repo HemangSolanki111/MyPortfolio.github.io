@@ -59,6 +59,10 @@ a{
     background: var(--primary-color);
 }
 
+::-webkit-inner-spin-button {
+    display: none;
+}
+
 section {
     padding: 50px 0;
 }
